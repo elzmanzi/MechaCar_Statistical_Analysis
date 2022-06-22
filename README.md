@@ -11,8 +11,10 @@ analyze data with R, use linear regression, p-test and r value to draw conclusio
 
 ## Suspension Coil Summary
 - Total summary
+
   ![total_summary](https://github.com/elzmanzi/MechaCar_Statistical_Analysis/blob/main/Resource/total_summary.PNG)
 - lot summary 
+
   ![lot_summary](https://github.com/elzmanzi/MechaCar_Statistical_Analysis/blob/main/Resource/lot_summary.PNG)
 ## T-Tests on Suspension Coils
 
