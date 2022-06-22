@@ -2,15 +2,18 @@
 analyze data with R, use linear regression, p-test and r value to draw conclusion
 
 ## Linear Regression to Predict MPG
-- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-  
-- Is the slope of the linear model considered to be zero? Why or why not?
-
-- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+- Vehicle_length, ground_clearance have a significant impact on mpg values. 
+  ![lm summary_img]()
+- our p-value: 5.35e-11, which is much smaller than our assumed significance level of 0.05%, therefore 
+  there is no significant evidence to reject our null hypothesis, means our slope for our linear model is not zero.
+- This linear model does not predict the mpg of MechaCar prototypes effectively, 
+  we perform other analysis to identify other variables of interest.
 
 ## Suspension Coil Summary
-- summary that addresses the design specification requirement for all the manufacturing lots and each lot individually
--
+- Total summary
+  ![total_summary]()
+- lot summary 
+  ![lot_summary]()
 ## T-Tests on Suspension Coils
 
 Determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
