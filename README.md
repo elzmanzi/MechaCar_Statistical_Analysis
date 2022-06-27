@@ -29,14 +29,13 @@ with p-value above the significance level, there is not enough evidedence to rej
   ![t-test sample Result_img](https://github.com/elzmanzi/MechaCar_Statistical_Analysis/blob/main/Resource/two_sample_comparison.PNG)
 
 ## Study Design: MechaCar vs Competition
-- What metric or metrics are you going to test?
-  The metrics to be tested are fuel efficiency(mpg) and horsepower  of Mechcar comparing to other manufactures. 
+- The metrics to be tested are fuel efficiency(mpg) and horsepower  of Mechcar comparing to other manufactures. other metrics to consider will be weight of car
+  which can contribute to the car performance as well.  
   Assuming the horsepower has an impact on car performance, and with fuel consumption, assuming the consumer will fill the gas tank once a week. 
 -  Alterantive Hypothesis, 
   If horsepower is related to fuel efficiency, when we have  less  horspower for a car, Then the low the fuel consumption will be. 
 - Null hypothesis is, If horsepower is not related to fuel efficiency, Then high horsepower will not result in low fuel consumption.
 - The test that need to be performed is the t-test along with our  p-value we can evaluate the null hypothesis,if the p-value is greater than 0.05 then it will
   reject our Null hypothesis. 
-- What data is needed to run the statistical test?
-  The data that we will need to perform is the fuel consumption of a given sample of cars,total gas consumed, the horsepower for each car and the miles driven per year.
+- The data that we will need to perform is the fuel consumption of a given sample of cars,total gas consumed, the horsepower for each car and the miles driven per year.
  
